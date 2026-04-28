@@ -1,0 +1,23 @@
+# DHS raw data - licence restricted, never push publicly
+data/raw/
+data/processed/*.parquet
+data/processed/*.csv
+
+# Large model files - too big for GitHub (>100MB)
+outputs/models/*.pkl
+
+# Python environment
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+
+# System files
+.DS_Store
+*.log
+.jupyter/
+reports/.DS_Store
+data/.DS_Store
+data/raw/.DS_Store
+data/raw/GPS DATA/.DS_Store
